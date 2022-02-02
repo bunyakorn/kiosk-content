@@ -2,11 +2,11 @@
     // Database configurations
 
     define("HOST", "localhost");
-    define("USER", "root");
-    define("DATABASE", "kiosk");
-    define("PASSWORD", "agro@industry");
+    define("USER", "username");
+    define("DATABASE", "kiosk-name");
+    define("PASSWORD", "your-password");
 
     //Base URL
-    define("BASEURL", "http://158.108.64.57");
+    define("BASEURL", "http://your-idaddress");
 
 ?>
