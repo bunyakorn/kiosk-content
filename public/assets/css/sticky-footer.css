@@ -1,0 +1,83 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.footer-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+.footer {
+  background-color: #f5f5f5;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.content-container .ai-border {
+  float: none;
+  display: inline-block;
+  margin: 25px 0;
+}
+.ai-border {
+  background: rgba(119, 190, 32, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(119, 190, 32, 1) 0,
+    rgba(0, 192, 213, 1) 26%,
+    rgba(0, 145, 218, 1) 51%,
+    rgba(26, 65, 138, 1) 75%,
+    rgba(128, 53, 178, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0, rgba(119, 190, 32, 1)),
+    color-stop(26%, rgba(0, 192, 213, 1)),
+    color-stop(51%, rgba(0, 145, 218, 1)),
+    color-stop(75%, rgba(26, 65, 138, 1)),
+    color-stop(100%, rgba(128, 53, 178, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(119, 190, 32, 1) 0,
+    rgba(0, 192, 213, 1) 26%,
+    rgba(0, 145, 218, 1) 51%,
+    rgba(26, 65, 138, 1) 75%,
+    rgba(128, 53, 178, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(119, 190, 32, 1) 0,
+    rgba(0, 192, 213, 1) 26%,
+    rgba(0, 145, 218, 1) 51%,
+    rgba(26, 65, 138, 1) 75%,
+    rgba(128, 53, 178, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(119, 190, 32, 1) 0,
+    rgba(0, 192, 213, 1) 26%,
+    rgba(0, 145, 218, 1) 51%,
+    rgba(26, 65, 138, 1) 75%,
+    rgba(128, 53, 178, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(119, 190, 32, 1) 0,
+    rgba(0, 192, 213, 1) 26%,
+    rgba(0, 145, 218, 1) 51%,
+    rgba(26, 65, 138, 1) 75%,
+    rgba(128, 53, 178, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77be20',endColorstr='#8035b2',GradientType=1);
+  width: 100%;
+  height: 6px;
+  float: left;
+}
+.wrapper .wrapper {
+  margin: 0;
+}

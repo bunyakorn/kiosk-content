@@ -1,0 +1,67 @@
+.main-widget-menu {
+    position: relative;
+    height: 100%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  .main-widget-menu .frame-widget-menu {
+    background: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+  .border-widget {
+    border-radius: 10px;
+  }
+  .splide__slide {
+      transition: all .3s ease-in-out;
+  }
+  .splide__slide.widget-item {
+      position: relative;
+      width: 95%;
+      padding: 0 50px;
+      margin: 20px 10px;
+      background-color: rgba(255,255,255,.42);
+  }
+  .splide__slide.border-widget.title-medium {
+    width: 33.33%;
+    height: 160px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 35px 0;
+    color: rgb(19, 124, 138);
+  }
+  .splide__pagination {
+      visibility: hidden;
+  }
+  .splide__arrow--next {
+    visibility: hidden;
+  }
+  .splide__arrow--prev {
+    visibility: hidden;
+  }
+
+  .fsm {
+    transition: 1s;
+    cursor: pointer;
+  }
+  .fsm .modal-content {
+    height: 0;
+    width: 0;
+    margin: 0;
+  }
+  .fsm.growing h1.modal-content {
+    height: auto;
+    margin: 0;
+    opacity: 0;
+    transition-delay: 0.5s;
+  }
+  .fsm.full-screen {
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0,.82);
+    border-radius: 0;
+  }

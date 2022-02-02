@@ -1,0 +1,18 @@
+.hide {
+    display: none;
+}
+.login_form {
+    margin-top: 25%;
+}
+.signup_form {
+    margin-top: 20%; 
+}
+.pointer {
+    cursor: pointer;
+}
+.passwd_style {
+    font-size: 1.2rem;
+}
+ion-icon {
+    font-size: 25px;
+}
